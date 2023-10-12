@@ -1,0 +1,47 @@
+h1 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  background-color: rgb(247, 247, 230);
+}
+
+span {
+  color: red;
+}
+
+.container {
+  box-shadow: 10px 13px 0 -1px rgba(0, 0, 0, 0.67);
+}
+#judul1 {
+  font-weight: 800;
+  color: red;
+  text-decoration: underline;
+}
+
+#judul2 {
+  font-weight: 800;
+  color: rgb(5, 5, 254);
+}
+
+.content {
+  background-color: #1a9fe1;
+}
+
+.box a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+}
+
+/* .box a:hover {
+  color: #ff0000;
+  font-size: 20px;
+  background-color: antiquewhite;
+} */
+
+.box:hover > a {
+  color: red;
+}
