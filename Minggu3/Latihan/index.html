@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootstrap 5</title>
+    <!-- CSS Bootstap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- padding, margin, top left bottom, right, width -->
+    <div class="p-4 bg-success my-3 w-75"></div>
+
+    <!-- text align, text color, font size, font weight -->
+    <h1 class="text-start text-primary fs-4 fw-bold">Hello World</h1>
+    <h1 class="text-center text-success fs-5 fw-light">Hello World</h1>
+    <h1 class="text-end text-warning fs-2 fw-semibold">Hello World</h1>
+
+    <!-- Flexbox, Justify, Border, Border Size, Border Radius, Shadow -->
+    <div class="d-flex">
+      <div
+        class="box p-3 bg-danger text-light fw-bold border border-dark border-5"
+      >
+        Box 1
+      </div>
+      <div
+        class="box p-3 bg-warning text-light fw-bold border-top border-dark border-3"
+      >
+        Box 2
+      </div>
+      <div
+        class="box p-3 bg-primary text-light fw-bold border border-dark border-start-0 border-2"
+      >
+        Box 3
+      </div>
+    </div>
+
+    <div class="d-flex flex-row-reverse">
+      <div class="box p-3 bg-danger text-light fw-bold rounded rounded-5">
+        Box 1
+      </div>
+      <div
+        class="box p-3 bg-warning text-light fw-bold rounded-bottom rounded-3"
+      >
+        Box 2
+      </div>
+      <div
+        class="box p-3 bg-primary text-light fw-bold rounded-start rounded-2"
+      >
+        Box 3
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="box p-3 bg-danger text-light fw-bold rounded-circle">
+        Box 1
+      </div>
+      <div class="box p-3 bg-warning text-light fw-bold shadow-lg">Box 2</div>
+      <div class="box p-3 bg-primary text-light fw-bold shadow">Box 3</div>
+    </div>
+
+    <div class="d-flex justify-content-around">
+      <div class="box p-3 bg-danger text-light fw-bold">Box 1</div>
+      <div class="box p-3 bg-warning text-light fw-bold">Box 2</div>
+      <div class="box p-3 bg-primary text-light fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <!-- Layouts Bootstrap -->
+    <div class="row">
+      <div class="col-12 bg-danger text-light">Column 12</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-6 bg-danger text-light">Column 6</div>
+      <div class="col-6 bg-warning text-light">Column 6</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-4 bg-danger text-light">Column 4</div>
+      <div class="col-4 bg-warning text-light">Column 4</div>
+      <div class="col-4 bg-danger text-light">Column 4</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-8 bg-danger text-light">Column 8</div>
+      <div class="col-4 bg-warning text-light">Column 4</div>
+    </div>
+    <br />
+
+    <!-- Latihan Layout -->
+    <div class="row">
+      <div class="col-12 bg-light text-light">Column 12</div>
+      <h1 class="text-center">Judul Halaman (Col 12)</h1>
+    </div>
+    <div class="row">
+      <div class="col-4 bg-success text-dark">
+        Sidebar (Col 4)
+        <ul>
+          <li>menu 1</li>
+          <li>menu 2</li>
+          <li>menu 3</li>
+        </ul>
+      </div>
+      <div class="col-8 bg-warning text-light">
+        <p class="text-center">Content (Col 8)</p>
+        <div class="row">
+          <div class="col-3 bg-dark">
+            <p>colum 1</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptatibus tenetur nemo, tempore molestiae adipisci assumenda
+              quam, maiores aspernatur distinctio suscipit blanditiis. Placeat
+              voluptatibus atque fuga vitae adipisci ratione aliquid.
+            </p>
+          </div>
+          <div class="col-3 bg-dark">
+            <p>colum 2</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptatibus tenetur nemo, tempore molestiae adipisci assumenda
+              quam, maiores aspernatur distinctio suscipit blanditiis. Placeat
+              voluptatibus atque fuga vitae adipisci ratione aliquid.
+            </p>
+          </div>
+          <div class="col-3 bg-dark">
+            <p>colum 3</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptatibus tenetur nemo, tempore molestiae adipisci assumenda
+              quam, maiores aspernatur distinctio suscipit blanditiis. Placeat
+              voluptatibus atque fuga vitae adipisci ratione aliquid.
+            </p>
+          </div>
+          <div class="col-3 bg-dark">
+            <p>colum 4</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptatibus tenetur nemo, tempore molestiae adipisci assumenda
+              quam, maiores aspernatur distinctio suscipit blanditiis. Placeat
+              voluptatibus atque fuga vitae adipisci ratione aliquid.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 bg-primary text-center">
+      <p>Footer</p>
+    </div>
+
+    <!-- JS Bootstap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
